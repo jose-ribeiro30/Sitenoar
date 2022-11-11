@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarJobs - Estudante Cadastro</title>
+
+    <link href="style.css" rel="stylesheet">
+
+    <link href="cadastroModal.css" rel="stylesheet">
+</head>
+<body style="margin: 0">
+
+    <script src="navbar.js "></script>
+
+    <div class="background-azul" style="height: 100px;">
+
+        <br>
+        <br>
+    
+        <a href="index.html" class="botao-cinza" style="font-size: 1.5em; margin-left: 100px;">Voltar</a>
+
+    </div>
+
+    <div>
+
+
+        <div class="cadastroEstudante">
+
+        <form method="post" action="cadastroAluno.php">
+
+            <h3 style="color: #000000; text-align: center;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">PREENCHA ABAIXO PARA FAZER CADASTRO NO SITE</h3>
+
+            <h4 style="color: #000000; text-align: center;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">ESTUDANTE</h4>
+
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 5%;">Nome Completo:</label>
+            
+            <br>
+
+            <input name="nome" type="text" class="input-text" style="margin: 5px 3%;width: 90%;" placeholder="Ex: fulano ciclano">
+
+            <br>
+            <br>
+
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 5%;">Email:</label>
+            
+            <br>
+
+            <input name="email" type="text" class="input-text" style="margin: 5px 3%;width: 90%;" placeholder="Ex: fulanociclano@mail.com">
+
+            <br>
+            <br>
+
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 5%;">Nome do Curso:</label>
+            
+            <br>
+
+            <input name="curso" type="text" class="input-text" style="margin: 5px 3%;width: 90%;" placeholder="Insira o nome do curso sem abreviação.">
+
+            <br>
+            <br>
+
+            
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 44%;">Telefone:</label>
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 44%;">Data de Nascimento:</label>
+            
+            <br>
+
+            
+            <input name="telefone" type="text" class="input-text" style="margin: 5px 0 0 5.5%;width: 40%;" placeholder="Ex: (xx) xxxx-xxxx">
+            <input name="data" type="date" class="input-text" style="margin: 5px 0 0 5.5%;width: 40%;">
+
+            <br> 
+            
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 44%;">RG:</label>
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 44%;">CPF:</label>
+
+            <br>
+
+            <input name="rg" type="text" class="input-text" style="margin: 5px 0 0 5.5%;width: 40%;" placeholder="Ex: XX.XXX.XXX-XX">
+            <input name="cpf" type="text" class="input-text" style="margin: 5px 0 0 5.5%;width: 40%;" placeholder="Ex: XXX.XXX.XXX-XX">
+
+
+            <br>
+            <br>
+
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 5%;">Senha:</label>
+
+            <label style="color: #000000;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 45%;">Confirmar Senha:</label>
+            
+            <br>
+
+            <input name="senha" type="password" class="input-text" style="margin: 5px 0 0 3%;width: 40%;" >
+            <input name="senha2" type="password" class="input-text" style="margin: 5px 0 0 5.5%;width: 40%;">
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <input name="enviar" type="submit" class="botao-azul" style="font-size: 1.5em; margin: 0 35% 5%;" value="CADASTRAR">
+
+        </form>
+        </div>
+
+    </div>
+
+    <script src="footer.js "></script>
+    
+</body>
+
+<script src="cadastro.js"></script>
+    
+</html>

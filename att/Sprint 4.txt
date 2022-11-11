@@ -1,0 +1,1 @@
+Nessa sprint foi desenvolvido um sistema de armazenamento de curriculos conectado ao banco de dados, introduzimos uma nova forma de armazenamento de arquivos e uma nova pasta para armazenar. Banco de dados atualizado também com a tabela vagas_do_aluno. 
